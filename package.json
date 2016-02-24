@@ -1,0 +1,22 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "Node user management",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jwt-simple": "^0.4.1",
+    "mysql": "^2.10.2",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.0.0",
+    "sequelize": "^3.19.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
